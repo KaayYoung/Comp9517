@@ -1,0 +1,9 @@
+1. 
+Use cv2.GaussianBlur before K-Means thresholding, 
+this method is highly effective in removing gaussian noise
+
+2.
+Use cv2.medianBlur after K-Means thresholding
+this method is highly effective against salt-and-pepper
+noise in the images.
+(speckled with intermingled dark and light shades)
